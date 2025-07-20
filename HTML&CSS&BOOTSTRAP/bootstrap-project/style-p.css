@@ -1,0 +1,33 @@
+nav{
+    background-color: rgb(208, 248, 248);
+}
+.banner-container{
+    
+    height: 50vh;
+    background-color: rgb(194, 192, 192);
+    margin: 40px;
+    box-shadow: 4px 4px 8px rgb(63, 63, 61);
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    
+}
+
+img{
+    width: 50%;
+    height: 50vh;
+    padding: 20px;
+    
+}
+.OUR-MENUS{
+    box-shadow: 4px 4px 8px black ;
+    border-radius: 7px;
+    margin-bottom: 40px;
+    background-color: rgb(165, 204, 241);
+}
+.img-details{
+    padding: 30px;
+    align-items: center;
+}
+/* main{
+    height:150vh ;
+} */

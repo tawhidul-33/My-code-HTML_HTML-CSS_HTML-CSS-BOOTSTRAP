@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style-p.css">
+    <title>flex-Bootstra</title>
+    <!-- Bootstrap cdn -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css">
+
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light  sticky-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Spicy Magi</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Dropdown
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+
+        <section class="banner-container container">
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+
+                    <div class="carousel-item active">
+                        <div class="d-flex">
+                            <img src="image/c.jpg" class="d-block w-50" alt="...">
+                            <div class="img-details">
+                                <h1>Complimentary</h1>
+                                <p>Fresh Orange Juice-Cold pressed, no added sugar<br />Mineral Water-Bottled,
+                                    chilled<br />Green Tea or Regular Tea-On request<br></p>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="d-flex">
+                            <img src="image/b.jpg" class="d-block w-50" alt="...">
+                            <div class="img-details">
+                                <h1>Breakfast</h1>
+                                <p>1 or 2 piece soft/hard boiled egg<br />Optional: served with yogurt or just
+                                    cut<br />3–5 pieces fresh sweet strawberry<br></p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="carousel-item">
+                        <div class="d-flex">
+                            <img src="image/d.jpeg" class="d-block w-50" alt="...">
+                            <div class="img-details">
+                                <h1>Lunch</h1>
+                                <p>Chicken Biriyani<br />Long grain basmati rice, soft chicken piece, lightly
+                                    spiced<br />Dessert<br></p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="carousel-item">
+                        <div class="d-flex">
+                            <img src="image/l.jpeg" class="d-block w-50" alt="...">
+                            <div class="img-details">
+                                <h1>Dinner</h1>
+                                <p>Chicken Chowmein<br />Stir-fried noodles with sliced chicken, carrots, capsicum,
+                                    onion<br />Discount : 15%<br></p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+    </header>
+
+    <main>
+        <section class="Service-container mt-5 container">
+            <h1 class="OUR-MENUS text-center text-danger sticky-top">OUR MENUS</h1>
+
+            <div class="row d-flex  justify-content-center gap-3">
+                <div class="card col-lg-3 col-md-5 col-sm-12">
+                    <img src="image/c.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Menu-1</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+
+                <div class="card col-lg-3 col-md-5 col-sm-12">
+                    <img src="image/b.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Menu-2</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+
+                <div class="card col-lg-3 col-md-5 col-sm-12">
+                    <img src="image/l.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Menu-3</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+
+                <div class="card col-lg-3 col-md-5 col-sm-12">
+                    <img src="image/d.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+
+                <div class="card col-lg-3 col-md-5 col-sm-12">
+                    <img src="image/l.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Menu-3</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+
+                <div class="card col-lg-3 col-md-5 col-sm-12">
+                    <img src="image/d.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </section>
+
+        <section class="contact-us container  ">
+            <h1 class="text-center text-secondary  mt-5 p-2">Contact Us</h1>
+            <div class="contact-us-containt row d-flex justify-content-between ">
+                <div class="from-container border col-lg-7 col-md-6">
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1"
+                            placeholder="name@example.com">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                    <label for="inputPassword" class="col-sm-2 col-form-label">Password</label>
+                    <div class="col-sm-10">
+                        <input type="password" class="form-control" id="inputPassword">
+                    </div>
+
+                </div>
+                <div class="from-img col-lg-4 col-md-6">
+                    <img src="image/undraw_text-messages_978a.png">
+
+                </div>
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer class="bg-dark text-light mt-5 p-5 d-flex justify-content-around">    
+        <div>
+            <li class="list-group-item">Contuct</li>
+            <li  class="list-group-item">lorem,ipsum</li>
+            <li  class="list-group-item">lorem1</li>
+        </div>
+
+        <div>
+             <li class="list-group-item">About</li>
+             <li class="list-group-item">lorem,ipsum</li>
+             <li class="list-group-item">lorem1</li>
+        </div>
+
+        <div>
+            <li class="list-group-item">Services</li>
+            <li class="list-group-item">lorem,ipsum</li>
+            <li class="list-group-item">lorem1</li>
+        </div>
+
+        <div>
+            <li class="list-group-item">Social-Media</li>
+            <li class="list-group-item">lorem,ipsum</li>
+            <li class="list-group-item">lorem1</li>
+        </div>
+    </footer>
+
+    <div class="text-center">
+         <p>
+            <small>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, nam.</small>
+         </p>
+    </div>
+
+
+    <div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"> </script>
+    </div>
+</body>
+
+</html>

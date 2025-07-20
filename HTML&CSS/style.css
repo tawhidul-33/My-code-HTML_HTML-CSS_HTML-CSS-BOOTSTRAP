@@ -1,0 +1,148 @@
+/*2*/
+.firstTytle{  /*class section */
+    color: coral;
+    font-size: 50px;
+
+}
+
+#secondTytle{    /*id section */
+    color: aqua;
+    font-size: 50px;
+}
+/*3 & 5.2*/
+.box{
+    width: 200px;
+    /*height: 400px;*/
+    border: 2px solid black;
+    text-align:center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin:50px ;
+    /* background-color: blueviolet; */
+
+}
+.title{
+    color: navy;
+    margin-top:100px;
+    margin-bottom: 100px ;
+    margin-left: 150px;
+    margin-right: 200;
+}
+/*4*/
+.title3{
+    display: inline; /*<h1> theke <h6> porjonto sob heading tag gulo block-level elements. so disply:inline  er maddhome block-level soran jay
+                       ,,block line mane alada alada line hoy but disply property te inline dile ak line ai show kore*/
+
+}
+.colorWithcode{
+    color: rgba(0,2,255,1);
+    font-size: 20px;
+    font-weight:blod;
+    font-style: italic;
+    text-align: center;
+    width: 50%;
+ 
+
+}
+
+/* 5.1 */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+.description{
+    font-family: "Roboto", sans-serif;
+    color: rgba(0,2,255,1);
+    font-size: 20px;
+    font-weight:10; /*font-weight:mane blod*/
+    text-align: center;
+    width: 50%;
+}
+
+/* 6 */
+/* possition chara left, right, top, bottom kaj kore na. */
+.box-all{
+    width: 250px;
+    height: 250px;
+    margin-top: 10px;
+}
+.box1{
+    border: 2px solid black;
+    position: fixed; /* Ei box ta screen e fix thakbe scroll korleo.*/
+    left: 400px;  
+}
+
+.box2{
+    border: 2px solid rgb(214, 15, 15); 
+    position: relative; /* Ei box ta screen e fix thakbe na scroll korleo.*/
+    left: 20px;
+}
+
+.box3{
+    border: 2px solid rgb(102, 3, 251);
+    position: sticky; /* Ei ta normal vabe scroll hobe, but jodi top e chole ashe, tahole screen e sticky hoye thake*/
+    top:100px;
+}
+
+.box4{
+    border: 2px solid rgb(137, 223, 17);
+    position: relative ;
+    left: 100px;
+    background-color: green;
+}
+
+/* box4 er child box */
+.red{
+    width:50px;
+    height:50px;
+    border: 1px solid red;
+    border-radius:  50px;
+    background-color: red;
+    position: absolute; /*absolute position element parent er moddhe thakbe jodi oi parent e position: relative thake.na hole puro page er upor jayga ney.*/
+    left:100px;
+    top:100px;
+}
+
+/* 7 */
+.line1{  /* child container */
+    width:300px;
+    height:200px;
+    border:1px solid rgb(98, 96, 96)
+    
+}
+
+.line2{   /* child container */
+    width:300px;
+    height:200px;
+    border:1px solid rgb(17, 210, 62)
+}
+
+/* parent container */
+.line-container{ 
+    display: flex; /*display: flex; er karone childe container gulo pasa-pas chole asbe mane inline a*/
+    justify-content:space-around ;
+
+    width:100%;
+    height:100vh;
+    border:1px solid rgb(221, 51, 108);
+    align-items: center;
+    flex-wrap: wrap; /* flex-wrap er kaj holo flex items gular ekta line e na thakle tader ke multiple lines e vitore vitore bhangte deya — mane wrap korte deya.
+                      By default, flex-wrap: nowrap thake, mane sob item ek line e thakbe, even jodi overflow hoy */
+}
+
+/* 8 */
+.background-image{
+    width:100%;
+    height: 100vh;
+    border:1px solid rgb(24, 123, 136);
+    background-image:url('image/d.jpg'),linear-gradient(45deg,red,blue) ;
+    background-blend-mode: overlay; /*for this ,,,linear-gradient(45deg,red,blue)  */
+    h1{
+        color: rgb(44, 213, 213);
+    }
+    p{
+        color: red;
+    }
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}  
